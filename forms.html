@@ -1,0 +1,57 @@
+<HTML>
+    <HEAD>
+    <TITLE>Formular</TITLE>
+    </HEAD>
+    <BODY link="#0000FF" vlink="#800080" background="Image4.gif">
+    <H1 ALIGN=center>Intrarea &icirc;n magazinul virtual</H1>
+    <CENTER>
+    <FORM action="http://dnt_cj.ro/cgi-bin/magavirt/intrare" METHOD="POST">
+        <TABLE>
+            <tr><td>                <INPUT TYPE=checkbox NAME="clinou">Inregistrare client nou
+            </td></tr>
+            <TR>
+            <TH>Numele :</TH>
+            <TD><INPUT TYPE=text size=25 name="nume"></TD>
+            </TR><TR>
+            <TH>Prenumele : </TH>
+            <TD><INPUT TYPE=text size=25 name="prenume"></TD>
+            </TR><TR>
+            <TH>Codul de acces : </TH>
+            <TD><INPUT TYPE=password size=10 name="cod_acces"></TD>
+            </TR>
+        </TABLE>
+
+
+<TABLE>
+<TR> <TH ALIGN=left>Impresia dv. :</TH></TR>
+<TR><TD><TEXTAREA NAME=rezumat ROWS=5 COLS=45></TEXTAREA> </TD> </TR>
+</TABLE>
+
+    Pl&atilde;tesc cu : <INPUT TYPE=radio NAME="plata" VALUE="0"><B>Card VISA</B>
+                <INPUT TYPE=radio NAME="plata" VALUE="1"><B>Cec</B>
+                <INPUT TYPE=radio NAME="plata" VALUE="2"><B>Mandat postal</B>
+    
+    <BR><BR>
+    <INPUT TYPE=submit value ="Intr&atilde;m &icirc;n magazin!">
+        <BR><BR>
+            Mergem &icirc;n raionul cu produse &nbsp;&nbsp;
+            <SELECT NAME=raion>
+            <OPTION SELECTED VALUE=niciunde>(alegeti raionul)
+            <OPTION VALUE=alimente>Produse alimentare
+            <OPTION VALUE=bautura>B&atilde;uturi
+            <OPTION VALUE=cosmetice>Cosmetice
+            <OPTION VALUE=menaj>Articole de menaj
+            <OPTION VALUE=imbrac>&Icirc;mbr&atilde;c&atilde;minte
+            <OPTION VALUE=electro>Articole electrocasnice
+            <OPTION VALUE=gradina>Articole pentru
+                      gr&atilde;din&atilde;rit 
+            </SELECT>
+            <BR><BR> 
+            
+            
+            
+    </CENTER>
+    </FORM>
+    </BODY>
+    </HTML>
+    
